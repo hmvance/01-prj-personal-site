@@ -44,7 +44,7 @@ h1, h2 { letter-spacing: -1px; }
 .about-content { display: flex; align-items: center; gap: 7%; }
 .section-heading { flex: 1; }
 .section-heading h2, .projects-intro h2 { margin-bottom: 0; font-size: clamp(2.2rem, 4vw, 4rem); }
-.about-copy { flex: 1; max-width: 410px; color: var(--muted); }
+.about-copy { flex: 1; max-width: 520px; color: var(--muted); }
 .profile-photo { width: 185px; height: 185px; border-radius: 50%; object-fit: cover; }
 .resume-section .container { display: flex; align-items: flex-start; gap: 7%; }
 .resume-section .section-heading { flex: 0 0 32%; }
