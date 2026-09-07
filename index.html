@@ -2,10 +2,212 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hannah Vance | Business Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <!-- The header stays at the top and links to each section of the page. -->
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home">HV<span>.</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero section: a short introduction and two clear next steps. -->
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <p class="eyebrow">Business student at SMU</p>
+        <h1>Driven by purpose.<br><span>Ready to lead.</span></h1>
+        <p class="hero-text">Hi, I'm Hannah. I'm studying business and finance while building experience in leadership, communication, and service.</p>
+        <div class="hero-buttons">
+          <a class="button button-light" href="#about">Learn about me <i class="fa-solid fa-arrow-down" aria-hidden="true"></i></a>
+          <a class="text-link" href="#contact">Let's talk <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div class="hero-note"><span>01</span> Learning in public</div>
+    </section>
+
+    <!-- About section: replace this text with your own story as you learn. -->
+    <section class="section about-section" id="about">
+      <div class="container about-content">
+        <div class="section-heading">
+          <p class="eyebrow">About Hannah</p>
+          <h2>Ambitious by nature.<br>Grounded by purpose.</h2>
+        </div>
+        <div class="about-copy">
+          <p>I'm a Bachelor of Business Administration student at Southern Methodist University's Cox School of Business, where I am exploring finance and developing my professional skills.</p>
+          <p>Through work, leadership, athletics, and community involvement, I have built strong communication, organization, and teamwork skills.</p>
+          <a class="text-link dark-link" href="#education">View my education <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+        <img class="profile-photo" src="img/me.png" alt="Portrait of Hannah Vance">
+      </div>
+    </section>
+
+    <!-- Education section: add future degrees, awards, or certifications here. -->
+    <section class="section resume-section" id="education">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Education</p>
+          <h2>Learning with<br>intent.</h2>
+        </div>
+        <div class="resume-list">
+          <article class="resume-item">
+            <div><h3>Southern Methodist University</h3><p class="resume-subtitle">Cox School of Business | Dallas, TX</p></div>
+            <p class="resume-date">May 2029</p>
+            <p>Bachelor of Business Administration, Undeclared Finance</p>
+            <p>Cumulative GPA: 3.01 / 4.00 | Cox GPA: 3.30 / 4.00</p>
+          </article>
+          <article class="resume-item">
+            <div><h3>Boerne High School</h3><p class="resume-subtitle">Boerne, TX</p></div>
+            <p class="resume-date">May 2025</p>
+            <p>Graduated in the top 25% of the class with a 98 / 100 cumulative GPA.</p>
+            <p>AP Scholar Award for scores of 3 or higher on three or more AP exams.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience section: summarize jobs with dates and accomplishments. -->
+    <section class="section resume-section tinted-section" id="experience">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Work that<br>builds trust.</h2>
+        </div>
+        <div class="resume-list">
+          <article class="resume-item">
+            <div><h3>Clerical Assistant</h3><p class="resume-subtitle">Optimal Wireless / Cricket Wireless | San Antonio, TX</p></div>
+            <p class="resume-date">Nov 2022 - Jan 2026</p>
+            <ul>
+              <li>Organized filing, customer support, email and phone communications, supply ordering, and time-clock administration.</li>
+              <li>Answered phones, supported customers, and delivered messages to the appropriate staff.</li>
+              <li>Resolved customer complaints by evaluating service and product options, supporting customer satisfaction and sales.</li>
+            </ul>
+          </article>
+          <article class="resume-item">
+            <div><h3>Babysitter</h3><p class="resume-subtitle">Private Family | Boerne, TX</p></div>
+            <p class="resume-date">Nov 2022 - Jul 2025</p>
+            <ul>
+              <li>Provided compassionate care for special needs children and toddlers ages 2-6.</li>
+              <li>Transported children to sports, appointments, and recreational activities while following safety guidelines.</li>
+              <li>Prepared nutritious meals and maintained safe, structured environments.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Leadership section: highlight campus and community leadership. -->
+    <section class="section resume-section" id="leadership">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Leadership</p>
+          <h2>Showing up<br>for others.</h2>
+        </div>
+        <div class="resume-list">
+          <article class="resume-item">
+            <div><h3>Alpha Chi Omega</h3><p class="resume-subtitle">Outreach Committee Member and Assistant Membership Programming | Dallas, TX</p></div>
+            <p class="resume-date">Aug 2025 - Present</p>
+            <ul>
+              <li>Support philanthropy initiatives and fundraising events for national and local causes.</li>
+              <li>Coordinate chapter events and recruitment activities for a 300+ member organization.</li>
+              <li>Engage with potential new members and represent the chapter professionally.</li>
+            </ul>
+          </article>
+          <article class="resume-item">
+            <div><h3>Boerne High School Golf Team</h3><p class="resume-subtitle">Captain | Boerne, TX</p></div>
+            <p class="resume-date">Aug 2022 - May 2025</p>
+            <ul>
+              <li>Led a team of 7 players for three seasons and prepared the team for 27 tournaments.</li>
+              <li>Communicated tournament logistics and schedules to teammates and coaches.</li>
+              <li>Designed annual team uniforms and promoted team culture and leadership.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills section: Font Awesome icons make each skill easy to scan. -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading centered-heading">
+          <p class="eyebrow">What I bring</p>
+          <h2>Skills and interests</h2>
+        </div>
+        <div class="skills-list">
+          <div class="skill-item"><i class="fa-brands fa-html5" aria-hidden="true"></i><h3>HTML</h3><p>Semantic page structure</p></div>
+          <div class="skill-item"><i class="fa-brands fa-css3-alt" aria-hidden="true"></i><h3>CSS</h3><p>Layouts and visual style</p></div>
+          <div class="skill-item"><i class="fa-solid fa-language" aria-hidden="true"></i><h3>Spanish</h3><p>Conversational proficiency</p></div>
+          <div class="skill-item"><i class="fa-solid fa-file-excel" aria-hidden="true"></i><h3>Microsoft Excel</h3><p>Associate certified</p></div>
+          <div class="skill-item"><i class="fa-solid fa-golf-ball-tee" aria-hidden="true"></i><h3>Interests</h3><p>Golf, yoga, e-biking, and travel</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section: this portfolio website is the first project in Hannah's collection. -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="projects-intro">
+          <div class="section-heading">
+            <p class="eyebrow">Selected work</p>
+            <h2>Projects I'm building</h2>
+          </div>
+          <p>Learning, creating, and growing one project at a time.</p>
+        </div>
+        <div class="project-list">
+          <article class="project-card featured-project">
+            <img src="img/laptop.jpg" alt="Laptop with a colorful keyboard">
+            <div class="project-details">
+              <p class="project-number">01 / Featured project</p>
+              <h3>Personal portfolio</h3>
+              <p>A responsive website created to introduce Hannah, share her experience, and document her professional growth.</p>
+              <a class="text-link dark-link" href="#contact">View project <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+          <article class="project-card upcoming-project">
+            <div class="project-details">
+              <p class="project-number">02 / Coming soon</p>
+              <h3>Future project</h3>
+              <p>This space is ready for the next project Hannah creates during her business and web development coursework.</p>
+              <a class="text-link dark-link" href="#contact">Connect with me <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section: update the email address with your own details. -->
+    <section class="contact-section" id="contact">
+      <div class="container contact-content">
+        <p class="eyebrow">Have an idea?</p>
+        <h2>Let's make something<br><span>worth visiting.</span></h2>
+        <p class="contact-details">Boerne, TX | 830-446-5008 | hmvance@smu.edu</p>
+        <a class="button button-light" href="mailto:hmvance@smu.edu">hmvance@smu.edu <i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+        <a class="text-link contact-link" href="https://www.linkedin.com/in/hannahmvance" target="_blank" rel="noopener">LinkedIn profile <i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>(c) 2026 Hannah Vance</p>
+      <p>Business student | SMU Cox School of Business</p>
+      <a href="#home">Back to top <i class="fa-solid fa-arrow-up" aria-hidden="true"></i></a>
+    </div>
+  </footer>
 </body>
 </html>
